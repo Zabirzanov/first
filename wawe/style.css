@@ -1,0 +1,68 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.conteiner{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.link{
+    color: #FFF;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    border-bottom: 1px solid #0082A0;
+}
+
+.wawe{
+    background-image: url(./img/bgi_1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.title{
+    text-align: center;
+    margin: 200px auto;
+}
+
+.title h3{
+    color: #000;
+    margin-top: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+
+
+
+
+
+
+@media (max-width:700px) {
+  nav{
+    flex-wrap: wrap;
+  }  
+}
+
