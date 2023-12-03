@@ -1,0 +1,234 @@
+body {
+    font-family: 'Nyasha Sans';
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width:900px) {}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+
+    .btn {
+
+        @media (max-width:520px) {
+            display: none;
+        }
+    }
+
+}
+
+.btn {
+    margin-left: auto;
+    border: 2px solid #000;
+    background: var(--yellow, #FFE249);
+    padding: 16px 32px;
+
+}
+
+.nav-link {
+    color: #000;
+    font-family: Nyasha Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    @media (max-width:900px) {
+        display: none;
+    }
+
+}
+
+.burger {
+    display: none;
+
+    @media (max-width:900px) {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.glav {
+
+    .contaeiner {
+
+        background-image: url(./img/hero-bg.jpg);
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: Nyasha Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    @media (max-width:500px) {
+        font-size: 35px;
+    }
+
+
+
+    span {
+        color: var(--pink, #FF69CA);
+        text-align: center;
+        font-family: Nyasha Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.box {
+
+
+
+    max-width: 300px;
+    width: 100%;
+    padding-top: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+    // margin-left: 50px;
+    // margin-right: 40px;
+    padding-top: 260px;
+
+    p {
+        color: #000;
+        text-align: center;
+        font-family: Nyasha Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 18px 0 50px;
+    }
+
+
+}
+
+.about {
+    padding: 50px 0;
+
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px 30px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card {
+    max-width: 430px;
+    width: 100%;
+    border: 2px solid #000;
+    background: linear-gradient(0deg, #EE75AB 0%, #EE75AB 100%), #FFF;
+    box-shadow: 4px 4px 0px 0px #000;
+    text-align: center;
+
+    img {
+        width: 95%;
+        display: block;
+        margin: -100px auto 0;
+
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        color: #000;
+        text-align: center;
+        font-family: Nyasha Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &.card1 {
+background-color: purple;
+    }
+
+    &.card2 {
+        background: linear-gradient(0deg, #92CCFE 0%, #92CCFE 100%), #FFF;
+
+
+    }
+
+    &.card3 {
+background-color: yellow;
+    }
+
+    &.card4 {
+        background: linear-gradient(0deg, #92CCFE 0%, #92CCFE 100%), #FFF;
+
+    }
+
+    &.card5 {
+background-color: purple;
+    }
+}
+
+h2 {
+    color: #000;
+    font-family: Nyasha Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+    text-align: center;
+    font-family: Nyasha Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.teachers{
+    background: var(--yellow, #FFE249);
+
+    .card{
+        background: #FFF;
+        margin-top: -300px;
+    }
+
+    .wrap{
+        padding-top: 200px;
+        gap: 300px 30px;
+    }
+}
