@@ -1,0 +1,74 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box {
+    border-bottom: 1px solid black;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.wrap {
+    p {
+        margin-top: 100px;
+    }
+
+    h3 {
+        margin-top: 50px;
+        transform: rotate(-90deg);
+    }
+}
+
+.p{
+    text-align: center;
+}
+
+.box{
+    text-align: center;
+}
+.card{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+
+.Portfolio{
+    margin-top: 40px;
+}
+
+.img_1{
+    margin-top: 80px;
+}
+
+
+
+.a_b_c{
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.box_4{
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+}
+ 
